@@ -12,47 +12,49 @@ function Footer() {
     <footer className='ft-container'>
       <section className='ft-main'>
         <div className='ft-main-items'>
-          <div className='ft-main-address'>
-            <h3>THE MUSEUM</h3>
-            <span>Via Sant Ottavio, 44 - 10126 Torino</span>
+          <div className='ft-main-details'>
+            <div className='ft-main-address'>
+              <h3>THE MUSEUM</h3>
+              <span>Via Sant Ottavio, 44 - 10126 Torino</span>
+            </div>
+            <div className='ft-main-partner'>
+              <img src={fiat} alt='fiat logo' />
+              <span>MAIN PARTNER</span>
+            </div>
+            <div className='ft-main-socials'>
+              <img src={socials} alt='socials logo' />
+            </div>
           </div>
-          <div className='ft-main-partner'>
-            <img src={fiat} alt='fiat logo' />
-            <span>MAIN PARTNER</span>
-          </div>
-          <div className='ft-main-socials'>
-            <img src={socials} alt='socials logo' />
+          <div className='ft-main-legal'>
+            <ul className='ft-main-privacy'>
+              <li>STAMPA</li>
+              <li>STATUTO E CODICE ETICO</li>
+              <li>PRIVACY</li>
+            </ul>
+            <ul className='ft-main-contacts'>
+              <li>
+                <img src={phone} alt='phone logo' />
+                <span>011.0062713</span>
+              </li>
+              <li>
+                <img src={mail} alt='mail logo' />
+                <span>info@themuseum.it</span>
+              </li>
+            </ul>
           </div>
         </div>
-        <div className='ft-main-legal'>
-          <ul className='ft-main-privacy'>
-            <li>STAMPA</li>
-            <li>STATUTO E CODICE ETICO</li>
-            <li>PRIVACY</li>
-          </ul>
-          <ul className='ft-main-contacts'>
-            <li>
-              <img src={phone} alt='phone logo' />
-              <span>011.0062713</span>
-            </li>
-            <li>
-              <img src={mail} alt='mail logo' />
-              <span>info@themuseum.it</span>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section className='ft-newsletter'>
-        <div className='ft-newsletter-items'>
-          <span>Resta sempre aggiornato su mostre, workshop ed eventi</span>
-          <input placeholder='email ' type='email' id='email' name='email' />
-          <div className='ft-newsletter-accept'>
-            <input type='radio' id='accept' name='accept' value='accept' />
-            <label for='accept'>Accetto i termini e condizioni</label>
-          </div>
-          <div className='ft-newsletter-subscription'>
-            <span>ISCRIVITI ALLA NEWSLETTER</span>
-            <img src={arrow} alt='arrow logo' />
+        <div className='ft-newsletter'>
+          <div className='ft-newsletter-items'>
+            <span>Resta sempre aggiornato su mostre, workshop ed eventi</span>
+            <input placeholder='email ' type='email' id='email' name='email' />
+            <div className='ft-newsletter-accept'>
+              <input type='radio' id='accept' name='accept' value='accept' />
+              <label for='accept'>Accetto i termini e condizioni</label>
+            </div>
+            <div className='ft-newsletter-subscription'>
+              <span>ISCRIVITI ALLA NEWSLETTER</span>
+              <img src={arrow} alt='arrow logo' />
+            </div>
           </div>
         </div>
       </section>

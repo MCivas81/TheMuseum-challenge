@@ -5,170 +5,185 @@
   flex-direction: column;
   align-items: center;
   margin-top: auto;
+  color: #ffffff;
 }
+
+/* FOOTER MAIN SECTION */
 
 .ft-main {
   width: 100%;
+  height: 25vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .ft-main-items {
+  width: 64.58%;
+  height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.ft-main-details {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .ft-main-address {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  padding: 0 20px;
+  padding-left: 4.167vw;
 }
 
 .ft-main-address h3 {
-  font-size: 15px;
+  margin: 0;
+  font-size: 1.667vw;
   font-weight: 700;
-  padding-right: 20px;
+  line-height: 3.3vw;
 }
 
 .ft-main-address span {
-  font-size: 12px;
+  font-size: 0.883vw;
   border-bottom: 1px solid #ffffff;
 }
 
 .ft-main-partner {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  padding-left: 3.9vw;
 }
 
 .ft-main-partner img {
-  width: 30px;
+  width: 3.802vw;
 }
 
 .ft-main-partner span {
-  color: #ffffff;
-  font-size: 11px;
+  width: 5.365vw;
+  font-size: 1.146vw;
   font-weight: 700;
-  padding-left: 20px;
-}
-
-.ft-main-socials {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-left: 1.5vw;
 }
 
 .ft-main-socials img {
-  width: 220px;
-  height: 40px;
+  padding-left: 1.6vw;
+  width: 21vw;
 }
 
+/* FOOTER LEGAL SECTION */
+
 .ft-main-legal {
-  color: #ffffff;
+  width: 50%;
+  height: 80%;
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
-  padding: 0 20px;
+  justify-content: space-evenly;
 }
 
 .ft-main-privacy {
-  list-style-type: none;
-  padding: 0;
-  font-size: 11px;
+  list-style: none;
+  font-size: 1.146vw;
+  line-height: 3.2vw;
 }
 
 .ft-main-contacts {
-  list-style-type: none;
-  padding-left: 30px;
-  font-size: 11px;
+  list-style: none;
+  font-size: 0.833vw;
+  margin: 0;
 }
 
 .ft-main-contacts li {
   display: flex;
   align-items: center;
-  padding-bottom: 5px;
+  line-height: 2.5vw;
 }
 
 .ft-main-contacts li img {
-  width: 10px;
-  padding-right: 10px;
+  width: 0.938vw;
+  padding-right: 1.042vw;
 }
+
+/* FOOTER NEWSLETTER SECTION */
 
 .ft-newsletter {
   background-color: #1c2121;
-  color: #ffffff;
-  width: 100%;
+  width: 35.42%;
+  height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .ft-newsletter-items {
+  height: 80%;
   width: 100%;
+  padding-left: 2.083vw;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 10px;
 }
 
 .ft-newsletter-items span {
-  font-size: 11px;
-  padding: 15px;
+  font-size: 1.667vw;
+  width: 23.385vw;
 }
 
 #email {
   all: unset;
   background-color: #1c2121;
   border-bottom: 1px solid #c4c4c4;
-  width: 220px;
-  padding: 10px 0;
+  width: 25.104vw;
+  height: 2.5vw;
 }
 
 #email::placeholder {
-  font-size: 11px;
+  font-size: 1.146vw;
 }
 
 .ft-newsletter-accept {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 15px;
+  justify-content: left;
 }
 
 #accept {
-  width: 10px;
+  width: 1.042vw;
+  margin-right: 0.833vw;
 }
 
 .ft-newsletter-accept label {
-  font-size: 11px;
-  padding-left: 10px;
+  font-size: 0.833vw;
+  border-bottom: 1px solid #ffffff;
 }
 
 .ft-newsletter-subscription {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .ft-newsletter-subscription span {
-  font-size: 11px;
+  font-size: 1.458vw;
+  font-weight: 600;
+  border-bottom: 1px solid #ffffff;
+  width: 100%;
 }
 
 .ft-newsletter-subscription img {
-  width: 40px;
+  width: 3.265vw;
+  padding-left: 1.458vw;
 }
+
+/* FOOTER BOTTOM SECTION */
 
 .ft-bottom {
   width: 100%;
+  height: 4.167vw;
   display: flex;
   align-items: center;
   background-color: #d6001c;
@@ -178,9 +193,9 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   color: #000000;
-  font-size: 12px;
-  padding: 10px;
+  font-size: 0.833vw;
+  padding: 0 4.167vw;
 }
