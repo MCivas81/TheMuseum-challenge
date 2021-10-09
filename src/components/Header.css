@@ -21,7 +21,7 @@ header {
   display: none;
 }
 
-.title {
+.header-title {
   position: absolute;
   max-width: 768px;
   left: 30px;
@@ -29,7 +29,7 @@ header {
   top: 210px;
 }
 
-.title h2 {
+.header-title h2 {
   font-weight: 300;
   font-size: 45px;
   line-height: 98%;
@@ -141,14 +141,14 @@ header {
     height: 1vw;
   }
 
-  .title {
+  .header-title {
     width: 910px;
     height: 192px;
     left: 80px;
     top: 305px;
   }
 
-  .title h2 {
+  .header-title h2 {
     font-size: 98px;
   }
 

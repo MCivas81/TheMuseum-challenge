@@ -30,7 +30,7 @@ function Header() {
           </div>
         </ul>
       </nav>
-      <div className='title'>
+      <div className='header-title'>
         <h2>archivio</h2>
         <h2>storico</h2>
       </div>
