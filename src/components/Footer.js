@@ -49,7 +49,7 @@ function Footer() {
             <input placeholder='email ' type='email' id='email' name='email' />
             <div className='ft-newsletter-accept'>
               <input type='radio' id='accept' name='accept' value='accept' />
-              <label for='accept'>Accetto i termini e condizioni</label>
+              <label>Accetto i termini e condizioni</label>
             </div>
             <div className='ft-newsletter-subscription'>
               <span>ISCRIVITI ALLA NEWSLETTER</span>
