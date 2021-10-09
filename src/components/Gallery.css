@@ -1,0 +1,86 @@
+.gallery_wrapper {
+  height: 100vh;
+  border: 1px solid red;
+  padding: 4.167vw;
+}
+
+.gallery_navbar {
+  height: 6vw;
+  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gallery_title h4 {
+  font-size: 2.5vw;
+  font-weight: 500;
+  margin: 0;
+}
+
+.gallery_searchbar {
+  width: 60%;
+  height: 3.125vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid green;
+}
+
+.gallery_date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+  height: 1.719vw;
+}
+
+.gallery_date > span {
+  font-size: 1.667vw;
+}
+
+.date_selection {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid #000000;
+}
+
+.date_selection span {
+  font-size: 1.146vw;
+}
+
+.date_selection img {
+  width: 1.042vw;
+}
+
+.gallery_activities {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+  height: 1.719vw;
+}
+
+.gallery_activities > span {
+  font-size: 1.667vw;
+}
+
+.activities_selection {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid #000000;
+}
+
+.activities_selection span {
+  font-size: 1.146vw;
+}
+
+.activities_selection img {
+  width: 1.042vw;
+}
