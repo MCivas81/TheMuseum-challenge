@@ -1,12 +1,10 @@
 .gallery_wrapper {
   height: 100vh;
-  border: 1px solid red;
   padding: 4.167vw;
 }
 
 .gallery_navbar {
   height: 6vw;
-  border: 1px solid blue;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -24,7 +22,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid green;
 }
 
 .gallery_date {
@@ -32,7 +29,7 @@
   align-items: center;
   justify-content: space-between;
   width: 45%;
-  height: 1.719vw;
+  height: 1.62vw;
 }
 
 .gallery_date > span {
@@ -45,7 +42,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
 }
 
 .date_selection span {
@@ -61,7 +58,7 @@
   align-items: center;
   justify-content: space-between;
   width: 45%;
-  height: 1.719vw;
+  height: 1.62vw;
 }
 
 .gallery_activities > span {
@@ -74,7 +71,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
 }
 
 .activities_selection span {
