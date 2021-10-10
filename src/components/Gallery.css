@@ -1,6 +1,10 @@
-.gallery_wrapper {
-  height: 100vh;
+.gallery_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 4.167vw;
+  background-color: #e5e5e5;
 }
 
 .gallery_navbar {
@@ -8,6 +12,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 2.604vw;
+  width: 100%;
 }
 
 .gallery_title h4 {
@@ -80,4 +86,88 @@
 
 .activities_selection img {
   width: 1.042vw;
+}
+
+.photo_container_1 {
+  border: 1px solid red;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.photo_container_2 {
+  border: 1px solid red;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.photo_wrapper {
+  width: 49%;
+}
+
+.first_photo {
+  position: relative;
+}
+
+.photo {
+  width: 100%;
+  margin-bottom: 1.667vw;
+}
+
+.photo img {
+  width: 100%;
+}
+
+.photo:hover {
+  transform: rotate(5deg);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.first_photo:hover .ghost_photo {
+  transform: rotate(-5deg);
+  transition: all 1s ease;
+}
+
+.ghost_photo {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.photo_description {
+  border: 1px solid blue;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 5.208vw;
+}
+
+.photo_title {
+  font-size: 1.667vw;
+  font-weight: 500;
+}
+
+.photo_date {
+  font-size: 1.354vw;
+}
+
+.gallery_load {
+  border: 1px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4.167vw;
+  width: 100%;
+}
+
+.gallery_load span {
+  font-size: 1.458vw;
+  font-weight: 600;
+  border-bottom: 1px solid #000000;
 }
