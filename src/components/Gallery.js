@@ -1,6 +1,5 @@
 import './Gallery.css';
 import arrow2 from '../assets/logos/arrow2.svg';
-import image11 from '../assets/images/image11.png';
 import image1 from '../assets/images/image1.png';
 import image2 from '../assets/images/image2.png';
 import image3 from '../assets/images/image3.png';
@@ -11,6 +10,8 @@ import image7 from '../assets/images/image7.png';
 import image8 from '../assets/images/image8.png';
 import image9 from '../assets/images/image9.png';
 import image10 from '../assets/images/image10.png';
+import image11 from '../assets/images/image11.png';
+import CarouselComponent from './CarouselComponent';
 
 function Gallery() {
   return (
@@ -36,6 +37,7 @@ function Gallery() {
           </div>
         </div>
       </div>
+      <CarouselComponent />
       <div className='photo_container_1'>
         <div className='photo_wrapper'>
           <div className='photo first_photo'>
