@@ -6,7 +6,7 @@ import twitter from '../assets/logos/twitter.svg';
 
 function Header() {
   return (
-    <header className='container'>
+    <header className='header-container'>
       <div className='company-name'>
         <h3>the</h3>
         <h3>museum</h3>

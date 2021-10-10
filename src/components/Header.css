@@ -1,4 +1,5 @@
-header {
+.header-container {
+  display: flex;
   position: relative;
   color: #ffffff;
 }
@@ -69,36 +70,32 @@ header {
     align-items: center;
     position: absolute;
     width: 61%;
-    height: 90px;
-    right: 80px;
-    top: 51px;
+    height: 4.688vw;
+    right: 4.167vw;
+    top: 2.656vw;
   }
 
   .company-name {
-    left: 80px;
-    top: 51px;
+    left: 4.167vw;
+    top: 2.656vw;
   }
 
   .company-name h3 {
-    font-size: 51px;
+    font-size: 2.656vw;
   }
 
   .topnav ul {
     display: flex;
     list-style-type: none;
     align-items: center;
+    justify-content: center;
     width: 100%;
     padding: 0;
     justify-content: space-between;
     font-weight: 600;
     font-size: 1.1vw;
-    line-height: 92.9%;
     color: #f1eee5;
     text-transform: uppercase;
-  }
-
-  .topnav ul li {
-    padding-bottom: 3px;
   }
 
   .topnav ul li:hover {
@@ -117,7 +114,7 @@ header {
   }
 
   .lang-wrapper {
-    width: 92px;
+    width: 35%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -130,10 +127,10 @@ header {
   }
 
   .logos-wrapper {
+    width: 65%;
     display: flex;
-    justify-content: space-around;
-    width: 156px;
-    padding: 0 10px;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
   .social-logo {
@@ -142,31 +139,31 @@ header {
   }
 
   .header-title {
-    width: 910px;
-    height: 192px;
-    left: 80px;
-    top: 305px;
+    width: 47.396vw;
+    height: 10vw;
+    left: 4.167vw;
+    top: 15.885vw;
   }
 
   .header-title h2 {
-    font-size: 98px;
+    font-size: 5.104vw;
   }
 
   .description {
-    width: 867px;
-    height: 100px;
-    left: 80px;
-    top: 540px;
+    width: 45.156vw;
+    height: 5.208vw;
+    left: 4.167vw;
+    top: 28.125vw;
   }
 
   .description p {
-    font-size: 36px;
+    font-size: 1.875vw;
     margin: 0;
   }
 
   .header-img {
     min-width: 100%;
-    height: 720px;
+    height: 37.5vw;
     object-fit: cover;
   }
 }
