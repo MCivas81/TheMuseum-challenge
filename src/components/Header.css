@@ -4,35 +4,96 @@
   color: #ffffff;
 }
 
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 61%;
+  height: 4.688vw;
+  right: 4.167vw;
+  top: 2.656vw;
+}
+
 .company-name {
   position: absolute;
-  left: 30px;
-  top: 30px;
+  left: 4.167vw;
+  top: 2.656vw;
 }
 
 .company-name h3 {
+  font-size: 2.656vw;
   margin: 1px;
   font-weight: 600;
-  font-size: 25px;
   line-height: 80%;
   text-transform: uppercase;
 }
 
 .topnav ul {
-  display: none;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1.1vw;
+  color: #f1eee5;
+  text-transform: uppercase;
+}
+
+.topnav ul li:hover {
+  border-bottom: 4px solid #ffffff;
+  cursor: pointer;
+}
+
+.socials-container {
+  width: 23%;
+  height: 3.2vw;
+  display: flex;
+  background: #d6001c;
+  align-items: center;
+  border: 2px solid #c4051e;
+  box-sizing: border-box;
+}
+
+.lang-wrapper {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-right: 2px solid #c4051e;
+  box-sizing: border-box;
+}
+
+.lang-wrapper span {
+  margin: auto;
+}
+
+.logos-wrapper {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.social-logo {
+  width: 2vw;
+  height: 1vw;
 }
 
 .header-title {
   position: absolute;
-  max-width: 768px;
-  left: 30px;
-  height: 92px;
-  top: 210px;
+  width: 47.396vw;
+  height: 10vw;
+  left: 4.167vw;
+  top: 15.885vw;
 }
 
 .header-title h2 {
   font-weight: 300;
-  font-size: 45px;
+  font-size: 5.104vw;
   line-height: 98%;
   letter-spacing: -0.04em;
   margin: 0;
@@ -41,15 +102,15 @@
 
 .description {
   position: absolute;
-  width: 340px;
-  height: 100px;
-  left: 30px;
-  right: 30px;
-  top: 300px;
+  width: 45.156vw;
+  height: 5.208vw;
+  left: 4.167vw;
+  top: 28.125vw;
 }
 
 .description p {
-  font-size: 14px;
+  font-size: 1.875vw;
+  margin: 0;
   line-height: 140%;
   display: flex;
   align-items: center;
@@ -58,112 +119,7 @@
 }
 
 .header-img {
-  max-width: 100%;
-  height: 420px;
+  min-width: 100%;
+  height: 37.5vw;
   object-fit: cover;
-}
-
-@media (min-width: 1024px) {
-  .topnav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    width: 61%;
-    height: 4.688vw;
-    right: 4.167vw;
-    top: 2.656vw;
-  }
-
-  .company-name {
-    left: 4.167vw;
-    top: 2.656vw;
-  }
-
-  .company-name h3 {
-    font-size: 2.656vw;
-  }
-
-  .topnav ul {
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 0;
-    justify-content: space-between;
-    font-weight: 600;
-    font-size: 1.1vw;
-    color: #f1eee5;
-    text-transform: uppercase;
-  }
-
-  .topnav ul li:hover {
-    border-bottom: 4px solid #ffffff;
-    cursor: pointer;
-  }
-
-  .socials-container {
-    width: 23%;
-    height: 3.2vw;
-    display: flex;
-    background: #d6001c;
-    align-items: center;
-    border: 2px solid #c4051e;
-    box-sizing: border-box;
-  }
-
-  .lang-wrapper {
-    width: 35%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    border-right: 2px solid #c4051e;
-    box-sizing: border-box;
-  }
-
-  .lang-wrapper span {
-    margin: auto;
-  }
-
-  .logos-wrapper {
-    width: 65%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .social-logo {
-    width: 2vw;
-    height: 1vw;
-  }
-
-  .header-title {
-    width: 47.396vw;
-    height: 10vw;
-    left: 4.167vw;
-    top: 15.885vw;
-  }
-
-  .header-title h2 {
-    font-size: 5.104vw;
-  }
-
-  .description {
-    width: 45.156vw;
-    height: 5.208vw;
-    left: 4.167vw;
-    top: 28.125vw;
-  }
-
-  .description p {
-    font-size: 1.875vw;
-    margin: 0;
-  }
-
-  .header-img {
-    min-width: 100%;
-    height: 37.5vw;
-    object-fit: cover;
-  }
 }
