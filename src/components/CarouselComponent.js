@@ -22,7 +22,7 @@ function CarouselComponent() {
           </p>
         </div>
       </div>
-      <Carousel showThumbs={false}>
+      <Carousel className='carousel' showThumbs={false}>
         <div className='carousel_photo'>
           <img src={image1} alt='img1' />
         </div>
