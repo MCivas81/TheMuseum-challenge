@@ -127,13 +127,15 @@
 
 .photo:hover {
   transform: rotate(5deg);
-  transition: all 0.5s ease;
+  transition: all 0.3s linear;
   cursor: pointer;
 }
 
 .first_photo:hover .ghost_photo {
   transform: rotate(-5deg);
-  transition: all 1s ease;
+  transition: all 0.3s linear;
+  margin-top: 4.083vw;
+  opacity: 1;
 }
 
 .ghost_photo {
@@ -141,8 +143,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 4.083vw;
+  margin-top: 6.25vw;
   z-index: -1;
+  opacity: 0;
 }
 
 .photo_description {
@@ -158,6 +161,7 @@
 
 .photo_date {
   font-size: 1.354vw;
+  color: #505050;
 }
 
 .gallery_load {
