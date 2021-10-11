@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './Gallery.css';
 import arrow2 from '../assets/logos/arrow2.svg';
 import image1 from '../assets/images/image1.png';
@@ -14,6 +15,10 @@ import image11 from '../assets/images/image11.png';
 import CarouselComponent from './CarouselComponent';
 
 function Gallery() {
+  const [carouselOpen, setCarouselOpen] = useState(false);
+
+  const handleClick = () => setCarouselOpen(!carouselOpen);
+
   return (
     <div className='gallery_container'>
       <div className='gallery_navbar'>
@@ -37,30 +42,33 @@ function Gallery() {
           </div>
         </div>
       </div>
-      <CarouselComponent />
-      <div className='photo_container_1'>
-        <div className='photo_wrapper'>
-          <div className='photo first_photo'>
-            <img src={image1} alt='img1' />
-            <div className='ghost_photo'>
-              <img src={image11} alt='img11' />
+      {carouselOpen ? (
+        <CarouselComponent handleClick={handleClick} />
+      ) : (
+        <div className='photo_container_1'>
+          <div className='photo_wrapper'>
+            <div className='photo first_photo' onClick={handleClick}>
+              <img src={image1} alt='img1' />
+              <div className='ghost_photo'>
+                <img src={image11} alt='img11' />
+              </div>
+            </div>
+            <div className='photo_description'>
+              <span className='photo_title'>Gallery 01</span>
+              <span className='photo_date'>Apr 17 - Nov 01, 2020</span>
             </div>
           </div>
-          <div className='photo_description'>
-            <span className='photo_title'>Gallery 01</span>
-            <span className='photo_date'>Apr 17 - Nov 01, 2020</span>
+          <div className='photo_wrapper'>
+            <div className='photo'>
+              <img src={image2} alt='img2' />
+            </div>
+            <div className='photo_description'>
+              <span className='photo_title'>Gallery 02</span>
+              <span className='photo_date'>Lug 01 - Ott 25, 2020</span>
+            </div>
           </div>
         </div>
-        <div className='photo_wrapper'>
-          <div className='photo'>
-            <img src={image2} alt='img2' />
-          </div>
-          <div className='photo_description'>
-            <span className='photo_title'>Gallery 02</span>
-            <span className='photo_date'>Lug 01 - Ott 25, 2020</span>
-          </div>
-        </div>
-      </div>
+      )}
       <div className='photo_container_2'>
         <div className='photo_wrapper'>
           <div className='photo'>

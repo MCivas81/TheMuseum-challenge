@@ -7,13 +7,15 @@ import image13 from '../assets/images/image13.jpeg';
 import image14 from '../assets/images/image14.jpeg';
 import './CarouselComponent.css';
 
-function CarouselComponent() {
+function CarouselComponent({ handleClick }) {
   return (
     <div class='carousel_wrapper'>
       <div className='carousel_header'>
         <div className='carousel_description'>
           <span className='carousel_title'>GALLERY 01</span>
-          <span className='carousel_close'>X</span>
+          <span className='carousel_close' onClick={handleClick}>
+            X
+          </span>
         </div>
         <div className='carousel_paragraph'>
           <p>
