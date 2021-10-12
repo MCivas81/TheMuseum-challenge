@@ -9,29 +9,29 @@ function Footer() {
   const today = new Date();
   const date = today.getFullYear();
   return (
-    <footer className='ft-container'>
-      <section className='ft-main'>
-        <div className='ft-main-items'>
-          <div className='ft-main-details'>
-            <div className='ft-main-address'>
+    <footer className='ft_container'>
+      <section className='ft_main'>
+        <div className='ft_main_items'>
+          <div className='ft_main_details'>
+            <div className='ft_main_address'>
               <h3>THE MUSEUM</h3>
               <span>Via Sant Ottavio, 44 - 10126 Torino</span>
             </div>
-            <div className='ft-main-partner'>
+            <div className='ft_main_partner'>
               <img src={fiat} alt='fiat logo' />
               <span>MAIN PARTNER</span>
             </div>
-            <div className='ft-main-socials'>
+            <div className='ft_main_socials'>
               <img src={socials} alt='socials logo' />
             </div>
           </div>
-          <div className='ft-main-legal'>
-            <ul className='ft-main-privacy'>
+          <div className='ft_main_legal'>
+            <ul className='ft_main_privacy'>
               <li>STAMPA</li>
               <li>STATUTO E CODICE ETICO</li>
               <li>PRIVACY</li>
             </ul>
-            <ul className='ft-main-contacts'>
+            <ul className='ft_main_contacts'>
               <li>
                 <img src={phone} alt='phone logo' />
                 <span>011.0062713</span>
@@ -43,23 +43,23 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className='ft-newsletter'>
-          <div className='ft-newsletter-items'>
+        <div className='ft_newsletter'>
+          <div className='ft_newsletter_items'>
             <span>Resta sempre aggiornato su mostre, workshop ed eventi</span>
             <input placeholder='email ' type='email' id='email' name='email' />
-            <div className='ft-newsletter-accept'>
+            <div className='ft_newsletter_accept'>
               <input type='radio' id='accept' name='accept' value='accept' />
               <label>Accetto i termini e condizioni</label>
             </div>
-            <div className='ft-newsletter-subscription'>
+            <div className='ft_newsletter_subscription'>
               <span>ISCRIVITI ALLA NEWSLETTER</span>
               <img src={arrow} alt='arrow logo' />
             </div>
           </div>
         </div>
       </section>
-      <section className='ft-bottom'>
-        <div className='ft-bottom-credits'>
+      <section className='ft_bottom'>
+        <div className='ft_bottom_credits'>
           <span>{date} THE MUSEUM&copy;</span>
           <span>Publicis Sapient</span>
         </div>
