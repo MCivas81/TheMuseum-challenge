@@ -1,4 +1,4 @@
-.ft-container {
+.ft_container {
   width: 100%;
   background-color: #030909;
   display: flex;
@@ -10,7 +10,7 @@
 
 /* FOOTER MAIN SECTION */
 
-.ft-main {
+.ft_main {
   width: 100%;
   height: 25vw;
   display: flex;
@@ -19,7 +19,7 @@
   flex-wrap: nowrap;
 }
 
-.ft-main-items {
+.ft_main_items {
   width: 64.58%;
   height: 100%;
   display: flex;
@@ -27,109 +27,123 @@
   justify-content: left;
 }
 
-.ft-main-details {
+.ft_main_details {
   width: 50%;
-  height: 80%;
+  height: 70%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 1.667vw;
 }
 
-.ft-main-address {
-  padding-left: 4.167vw;
+.ft_main_address {
+  margin-left: 4.167vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 3.7vw;
 }
 
-.ft-main-address h3 {
+.ft_main_address h3 {
   margin: 0;
   font-size: 1.667vw;
   font-weight: 700;
-  line-height: 3.3vw;
 }
 
-.ft-main-address span {
+.ft_main_address span {
   font-size: 0.883vw;
   border-bottom: 1px solid #ffffff;
 }
 
-.ft-main-partner {
+.ft_main_partner {
   display: flex;
   align-items: center;
-  padding-left: 3.9vw;
+  margin-left: 4vw;
 }
 
-.ft-main-partner img {
+.ft_main_partner img {
   width: 3.802vw;
 }
 
-.ft-main-partner span {
+.ft_main_partner span {
   width: 5.365vw;
   font-size: 1.146vw;
   font-weight: 700;
   margin-left: 1.5vw;
 }
 
-.ft-main-socials img {
-  padding-left: 1.6vw;
+.ft_main_socials img {
+  margin-left: 1.7vw;
   width: 21vw;
 }
 
 /* FOOTER LEGAL SECTION */
 
-.ft-main-legal {
+.ft_main_legal {
   width: 50%;
-  height: 80%;
+  height: 60%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 2.3vw;
 }
 
-.ft-main-privacy {
+.ft_main_privacy {
   list-style: none;
   font-size: 1.146vw;
-  line-height: 3.2vw;
+  line-height: 2.8vw;
+  margin-top: 0.521vw;
 }
 
-.ft-main-contacts {
+.ft_main_contacts {
   list-style: none;
   font-size: 0.833vw;
   margin: 0;
 }
 
-.ft-main-contacts li {
+.ft_main_contacts li {
   display: flex;
   align-items: center;
-  line-height: 2.5vw;
+  line-height: 2vw;
 }
 
-.ft-main-contacts li img {
+.ft_main_contacts li img {
   width: 0.938vw;
   padding-right: 1.042vw;
 }
 
 /* FOOTER NEWSLETTER SECTION */
 
-.ft-newsletter {
+.ft_newsletter {
   background-color: #1c2121;
   width: 35.42%;
   height: 100%;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
+  box-sizing: border-box;
 }
 
-.ft-newsletter-items {
-  height: 80%;
+.ft_newsletter_items {
   width: 100%;
+  height: 70%;
   padding-left: 2.083vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 1.667vw;
+  padding-bottom: 1.667vw;
 }
 
-.ft-newsletter-items span {
+.ft_newsletter_items span {
   font-size: 1.667vw;
   width: 23.385vw;
 }
@@ -146,7 +160,7 @@
   font-size: 1.146vw;
 }
 
-.ft-newsletter-accept {
+.ft_newsletter_accept {
   display: flex;
   align-items: center;
   justify-content: left;
@@ -157,31 +171,31 @@
   margin-right: 0.833vw;
 }
 
-.ft-newsletter-accept label {
+.ft_newsletter_accept label {
   font-size: 0.833vw;
   border-bottom: 1px solid #ffffff;
 }
 
-.ft-newsletter-subscription {
+.ft_newsletter_subscription {
   display: flex;
   align-items: center;
 }
 
-.ft-newsletter-subscription span {
+.ft_newsletter_subscription span {
   font-size: 1.458vw;
   font-weight: 600;
   border-bottom: 1px solid #ffffff;
   width: 100%;
 }
 
-.ft-newsletter-subscription img {
+.ft_newsletter_subscription img {
   width: 3.265vw;
   padding-left: 1.458vw;
 }
 
 /* FOOTER BOTTOM SECTION */
 
-.ft-bottom {
+.ft_bottom {
   width: 100%;
   height: 4.167vw;
   display: flex;
@@ -189,7 +203,7 @@
   background-color: #d6001c;
 }
 
-.ft-bottom-credits {
+.ft_bottom_credits {
   width: 100%;
   display: flex;
   align-items: center;
