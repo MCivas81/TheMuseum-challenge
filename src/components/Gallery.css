@@ -178,3 +178,32 @@
   font-weight: 600;
   border-bottom: 1px solid #000000;
 }
+
+@media (max-width: 1024px) {
+  .photo_container_1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo_container_2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo_wrapper {
+    width: 100%;
+  }
+
+  .photo {
+    margin-bottom: 3.5vw;
+    padding-top: 6.083vw;
+  }
+
+  .first_photo:hover .ghost_photo {
+    margin-top: 6.083vw;
+  }
+
+  .ghost_photo {
+    margin-top: 8.25vw;
+  }
+}
